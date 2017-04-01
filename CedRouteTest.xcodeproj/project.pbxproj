@@ -12,6 +12,9 @@
 		A7D4DB431E8FA7F9009FF617 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D4DB411E8FA7F9009FF617 /* Main.storyboard */; };
 		A7D4DB451E8FA7F9009FF617 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7D4DB441E8FA7F9009FF617 /* Assets.xcassets */; };
 		A7D4DB481E8FA7F9009FF617 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7D4DB461E8FA7F9009FF617 /* LaunchScreen.storyboard */; };
+		A7D4DB531E8FA875009FF617 /* CedUrlRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D4DB501E8FA875009FF617 /* CedUrlRouter.swift */; };
+		A7D4DB541E8FA875009FF617 /* CedUrlRouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D4DB511E8FA875009FF617 /* CedUrlRouterProtocol.swift */; };
+		A7D4DB551E8FA875009FF617 /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7D4DB521E8FA875009FF617 /* TestViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		A7D4DB441E8FA7F9009FF617 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A7D4DB471E8FA7F9009FF617 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A7D4DB491E8FA7F9009FF617 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7D4DB501E8FA875009FF617 /* CedUrlRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CedUrlRouter.swift; sourceTree = "<group>"; };
+		A7D4DB511E8FA875009FF617 /* CedUrlRouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CedUrlRouterProtocol.swift; sourceTree = "<group>"; };
+		A7D4DB521E8FA875009FF617 /* TestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,8 @@
 		A7D4DB3C1E8FA7F9009FF617 /* CedRouteTest */ = {
 			isa = PBXGroup;
 			children = (
+				A7D4DB4F1E8FA875009FF617 /* CedUrlRouter */,
+				A7D4DB521E8FA875009FF617 /* TestViewController.swift */,
 				A7D4DB3D1E8FA7F9009FF617 /* AppDelegate.swift */,
 				A7D4DB3F1E8FA7F9009FF617 /* ViewController.swift */,
 				A7D4DB411E8FA7F9009FF617 /* Main.storyboard */,
@@ -62,6 +70,15 @@
 				A7D4DB491E8FA7F9009FF617 /* Info.plist */,
 			);
 			path = CedRouteTest;
+			sourceTree = "<group>";
+		};
+		A7D4DB4F1E8FA875009FF617 /* CedUrlRouter */ = {
+			isa = PBXGroup;
+			children = (
+				A7D4DB501E8FA875009FF617 /* CedUrlRouter.swift */,
+				A7D4DB511E8FA875009FF617 /* CedUrlRouterProtocol.swift */,
+			);
+			path = CedUrlRouter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,8 +153,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7D4DB551E8FA875009FF617 /* TestViewController.swift in Sources */,
+				A7D4DB531E8FA875009FF617 /* CedUrlRouter.swift in Sources */,
 				A7D4DB401E8FA7F9009FF617 /* ViewController.swift in Sources */,
 				A7D4DB3E1E8FA7F9009FF617 /* AppDelegate.swift in Sources */,
+				A7D4DB541E8FA875009FF617 /* CedUrlRouterProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +321,7 @@
 				A7D4DB4E1E8FA7F9009FF617 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
